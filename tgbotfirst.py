@@ -1,7 +1,7 @@
 import telebot
 from telebot import types
 
-botsite = telebot.TeleBot('5337259262:AAGgF5IkIBs91MU3lvPw_g8af-9WeTS7-xg')
+botsite = telebot.TeleBot('5337259262:AAGgF5IkIBs9_g8af-9WeTS7-xg')
 categories = ['Видеотехника', 'Аудиотехника', 'Вычислительная']
 @botsite.message_handler(commands=['start'])
 def start(message):
