@@ -32,7 +32,7 @@ def push_question_into_db(tguser, text_of_q):
 
 
 
-botsite = telebot.TeleBot('5337259262:AAGgF5IkIBs91MU3lvPw_g8af-9WeTS7-xg')
+botsite = telebot.TeleBot('5337259262:AAGgF5Ikg8af-9WeTS7-xg')
 
 
 @botsite.message_handler(commands=['start'])
