@@ -20,7 +20,7 @@ for item in resp.json()['category']:
     categories.append(item['title'])
 
 
-botsite = telebot.TeleBot('5337259262:AAGgF5IkIBs91MU3lvPw_g8af-9WeTS7-xg')
+botsite = telebot.TeleBot('5337259262:AAGg3lvPw_g8af-9WeTS7-xg')
 
 
 @botsite.message_handler(commands=['start'])
